@@ -17,7 +17,7 @@ require (
 	github.com/google/pprof v0.0.0-20210407192527-94a9f03dee38 // indirect
 	github.com/google/uuid v1.3.0 // indirect
 	github.com/klauspost/cpuid/v2 v2.2.3 // indirect
-	github.com/libdns/libdns v0.2.1 // indirect
+	github.com/libdns/libdns v1.0.0 // indirect
 	github.com/matttproud/golang_protobuf_extensions v1.0.1 // indirect
 	github.com/mholt/acmez v1.1.0 // indirect
 	github.com/miekg/dns v1.1.50 // indirect
@@ -44,3 +44,5 @@ require (
 	golang.org/x/tools v0.2.0 // indirect
 	google.golang.org/protobuf v1.28.1 // indirect
 )
+
+replace github.com/libdns/godaddy => github.com/dmarquesdev/libdns-godaddy v0.0.0-20250501031921-51e4da3e7333
