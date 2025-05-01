@@ -1,4 +1,4 @@
-module github.com/caddy-dns/godaddy
+module github.com/dmarquesdev/caddy-dns-godaddy
 
 go 1.19
 
