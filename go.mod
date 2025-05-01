@@ -4,7 +4,7 @@ go 1.19
 
 require (
 	github.com/caddyserver/caddy/v2 v2.6.4
-	github.com/libdns/godaddy v0.0.0-20221029040642-6024bc932fda
+	github.com/dmarquesdev/libdns-godaddy v1.1.0
 )
 
 require (
@@ -44,5 +44,3 @@ require (
 	golang.org/x/tools v0.2.0 // indirect
 	google.golang.org/protobuf v1.28.1 // indirect
 )
-
-replace github.com/libdns/godaddy => github.com/dmarquesdev/libdns-godaddy v0.0.0-20250501031921-51e4da3e7333
